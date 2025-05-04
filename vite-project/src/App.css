@@ -1,0 +1,28 @@
+.aside {
+  border-top: 2px dashed red;
+  border-right: 2px dotted red;
+  border-bottom: 2px solid red;
+  border-left: 2px solid red;
+  text-align: center;
+  width: 25%;
+  padding: 20px;
+}
+aside li {
+  color: whitesmoke;
+}
+aside span {
+  color: white;
+  text-decoration: underline;
+}
+
+.texto2 {
+  color: orange;
+  margin: 10px 0;
+}
+
+article {
+  display: flex;
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+}

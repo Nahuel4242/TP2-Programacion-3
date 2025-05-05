@@ -1,3 +1,9 @@
+.header {
+  background-image: url("https://loopgk.com/wp-content/uploads/2021/02/lenguaje-min.jpg");
+  text-align: center;
+  color: blue;
+  text-shadow: 1px 1px white;
+}
 .aside {
   border-top: 2px dashed red;
   border-right: 2px dotted red;
@@ -25,4 +31,132 @@ article {
   width: 75%;
   display: flex;
   justify-content: space-around;
+}
+
+.main {
+  background-image: url('data:image/svg+xml,%3Csvg width="42" height="44" viewBox="0 0 42 44" xmlns="http://www.w3.org/2000/svg"%3E%3Cg id="Page-1" fill="none" fill-rule="evenodd"%3E%3Cg id="brick-wall" fill="%23cc4d1c" fill-opacity="0.4"%3E%3Cpath d="M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z"%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E');
+  background-color: #0e97de;
+}
+.footer {
+  padding: 30px 0;
+  text-align: center;
+  background-image: url(https://codersfree.nyc3.cdn.digitaloceanspaces.com/posts/conoce-5-lenguajes-de-programacion-basicos.jpg);
+  width: 100%;
+}
+
+.aboutUs-container {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.aboutUs-container h1 {
+  color: #333;
+  text-align: center;
+  min-height: 100px;
+}
+
+.grupo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.miembro-grupo {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 500px;
+}
+
+.image-container {
+  width: 500px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-right: 20px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.miembro-info h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.miembro-info p {
+  color: #666;
+}
+table {
+  border-collapse: collapse;
+  width: 70%;
+}
+.div-table {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+th:hover,
+td:hover {
+  background-color: green;
+}
+thead {
+  background-color: #f2f2f2;
+}
+tbody {
+  background-color: #ffa07a;
+}
+article {
+  display: flex;
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+  border: 1px solid whitesmoke;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.74);
+  margin: 20px 0;
+}
+.card-p {
+  background-color: #fea500;
+  padding: 12px 0;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }

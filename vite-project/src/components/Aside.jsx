@@ -36,13 +36,6 @@ export const Aside = () => {
             La compilación puede mejorar el rendimiento, pero introduce un paso
             adicional en el desarrollo.
           </li>
-          <li>
-            <span>Lenguajes interpretados:</span> Estos lenguajes son ejecutados
-            directamente por un intérprete, sin necesidad de compilación previa.
-            Ejemplos incluyen Python y JavaScript. La interpretación puede hacer
-            que el desarrollo sea más ágil, aunque a menudo puede ser menos
-            eficiente en términos de velocidad de ejecución
-          </li>
         </ol>
       </div>
     </>
